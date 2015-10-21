@@ -1,0 +1,25 @@
+% !TEX encoding = UTF-8 Unicode
+%!TEX root = thesis.tex
+% !TEX spellcheck = en-US
+%%=========================================
+\addcontentsline{toc}{section}{Preface}
+\section*{Preface}
+
+Prosjektoppgaven endte opp med følgende problemstilling: \emph{Hvordan modellere vertikaler i jernbanebru uten vindfagverk i overdelen?}
+Jernbanebruer uten vindfagverk i overdelen, trenger en alternativ måte for avstivning av ``veggfagverket''. I eldre jernbanebruer er dette gjort på en interessant måte, vertikalene får en ekstra ``del'' tilsatt, heretter ``vertikalavstiver''. Denne delen er typisk satt sammen av en buet plate forbundet sammen med nedre del av brua, 
+%Sett inn en form for figur her for å demonstrere hvordan denne typisk kan se ut %
+og et lite fagverk som følger den buede delen av plata (L-profil) og som etter platen er bundet til vertikalen som et fagverk. 
+
+Intensjonen med dette prosjektet er å finne ut hvordan man kan modellere denne heller kompliserte delen på en enkelere måte og likevel inneha de samme egenskapene i så stor grad som mulig.
+
+Jeg vil ta utgangspunkt i å lage en detaljert modell av en vertikalavstiver. Kjøre analyser av hvordan denne vil reagere på forskyvninger og last, samt å finne dens egenfrekvenser. Dette arbeidet vil dokumenteres og dataene lagres for framtidige sammenligninger av alternative deler. Det burde også legges litt arbeid i å finne ut nøyaktig hvilke egenskaper som er viktig for denne delen, og dermed hvilke data som vil være mest naturlig å sammenligne.
+
+Etter at en nøyaktig modell av eksisterende vertikalavstiver er laget, og testet, vil jeg prøve ut alternative varianter. En naturlig tilsvarende del vil være et fagverk bestående av rette elementer. En annen variant er rett og slett å finnne best mulig approksimasjon av selve vertikalen slik at den innehar de riktige egenskapene. 
+
+For å lage disse modellene vil jeg ta i bruk abaqus. Den orginale vertikalavstiveren vil utføres som en skallmodell. Fagverksmodellen som ``wire feature''. Vertikalen i siste tilfelle, vil utføres enten som en skallmodell, som gjør det mulig å variere tverrsnittet med høyden både lineær og ellers, eller som en ``wire feature'' der tverrsnittet varieres underveis og arbeidet stort sett blir i å lage så gode tilnærmelser av egenskapene i vertikalstiveren som mulig i tverrsnittene som utgjør vertikalen.
+
+\begin{center}
+Trondheim, 2012-12-16\\[1pc]
+(Your signature)\\[1pc]
+Tor Holm Slettebak
+\end{center}
